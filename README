@@ -13,5 +13,4 @@ Known to build said file
 p = aes256ecb(sha[64][%x])
 
 k binary file
-sha[64][%x] ksha[64][%x] p[64][%x]
-
+int k[][192]=sha[64][%x] ksha[64][%x] p[64][%x]
