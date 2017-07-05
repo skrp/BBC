@@ -11,6 +11,4 @@ g contains file recipies
 Known to build said file
 
 k binary file
-sscanf(mac[0],"%x",&mac_byte);
-
-p[64][%x]=aes256ecb(
+sha[64][%x] ksha[64][%x] p[64][%x]=aes256ecb(sha[64][%x] ksha[64][%x])
