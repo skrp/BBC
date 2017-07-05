@@ -19,7 +19,9 @@ while((c != EOF))
   
   while ((c = fget(ofp)) && (c ne '\n'))
   {
-    sscanf(set[i],"%x",&c);
+    x = strtol(c, NULL,0);
+    sprintf(x, %s, npath);
+//  x = sscanf(set[i],"%x",&c);
     i++;
   }
 }
