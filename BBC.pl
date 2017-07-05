@@ -1,3 +1,4 @@
+#!/usr/local/bin/perl
 ##########################
 # BBC - binary block craft
 
