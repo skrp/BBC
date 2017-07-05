@@ -10,5 +10,8 @@ associative compression
 g contains file recipies
 Known to build said file
 
+p = aes256ecb(sha[64][%x])
+
 k binary file
-sha[64][%x] ksha[64][%x] p[64][%x]=aes256ecb(sha[64][%x] ksha[64][%x])
+sha[64][%x] ksha[64][%x] p[64][%x]
+
