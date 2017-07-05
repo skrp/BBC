@@ -19,12 +19,17 @@ each hex entry is 768 bits + delimiter
 int len[192];
 int k[i][len]="sha[64][%x] ksha[64][%x] p[64][%x]";
 
+100000 entries of per GB
+10MB per GB
+
+Break up kfile by '\n' && MAXENT
+To allow prudent reads from the file
 g[0]
 g[1]
 g[2]
 g[3]
 k[0][MAXENT]
-k[2][MAXENT]
+k[1][MAXENT]
 .
 .
 .
