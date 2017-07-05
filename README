@@ -7,8 +7,8 @@
 associative compression
 10000 byte sized aes-256-ecb blocks
 
-g contains file recipies
-Known to build said file
+g contains metadata
+Known to build file
 
 p = aes256ecb(sha[64][%x])
 
@@ -17,7 +17,7 @@ k ascii file = 20GB per TB
 each hex entry is 768 bits + delimiter
 
 int len[192];
-int k[i][len]=sha[64][%x] ksha[64][%x] p[64][%x]
+int k[i][len]="sha[64][%x] ksha[64][%x] p[64][%x]";
 
 g[0]
 g[1]
