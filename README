@@ -12,5 +12,10 @@ Known to build said file
 
 p = aes256ecb(sha[64][%x])
 
-k binary file
-int k[][192]=sha[64][%x] ksha[64][%x] p[64][%x]
+k binary file = 10GB per TB
+k ascii file = 20GB per TB
+each hex entry is 768 bits + delimiter
+
+int len[192];
+int k[i][len]=sha[64][%x] ksha[64][%x] p[64][%x]
+
