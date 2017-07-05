@@ -19,3 +19,13 @@ each hex entry is 768 bits + delimiter
 int len[192];
 int k[i][len]=sha[64][%x] ksha[64][%x] p[64][%x]
 
+g[0]
+g[1]
+g[2]
+g[3]
+k[0][MAXENT]
+k[2][MAXENT]
+.
+.
+.
+k[i][MAXENT]
