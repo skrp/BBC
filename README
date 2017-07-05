@@ -9,3 +9,8 @@ associative compression
 
 g contains file recipies
 Known to build said file
+
+k binary file
+sscanf(mac[0],"%x",&mac_byte);
+
+p[64][%x]=aes256ecb(
