@@ -34,3 +34,9 @@ k[1][MAXENT]
 .
 .
 k[i][MAXENT]
+
+Hardened Encryption
+- nonsequential 
+- over time
+- over hosts
+- uniq 64 hex pass
