@@ -24,19 +24,18 @@ int k[i][len]="sha[64][%x] ksha[64][%x] p[64][%x]";
 300GB file = 3GB of RAM
 Break up kfile by MAXENT
 To allow prudent reads from the file
-g[0]
-g[1]
-g[2]
-g[3]
-k[0][MAXENT]
-k[1][MAXENT]
-.
-.
-.
-k[i][MAXENT]
 
-Hardened Encryption
+g file struct
+  g[0]'\n'g[1]'\n'g[2]'\n'g[3]'\n'
+  k[0][MAXENT]'\n'k[1][MAXENT]'\n'...k[i][MAXENT]
+
+Archive Related Hardened Encryption Techniques 
+- preworked
 - nonsequential 
 - over time
 - over hosts
 - uniq 64 hex pass
+1) file mixed in pool of 1 billion
+2) host jobs select random blocks to encrypt
+3) request fill TB worth will return 100 million files 
+4) each block in file discrete from other in its encryption process
