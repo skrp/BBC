@@ -8,8 +8,8 @@ my $PAYLOAD = 9_968;
 my $ECBSIZE = 32;
 # MAP ####################
 my $g = "@nam[$i] @pat[$i] @siz[$i] @enc[$i]";
-my @k = "$g @chain";
-my $kg = 
+my @key = "@blockchain";
+my $MAP = @nam[$i] @pat[$i] @siz[$i] @enc[$i] @wall[$wall][$brick]
 # OBFUCSATION 0 LAYER ####
 my @briks = readline $REQfh; chomp @briks;
 my @obfuscation0 = sort @briks;
@@ -17,7 +17,4 @@ my @obfuscation0 = sort @briks;
 my $wall = $#@obfucsation0; $wall =~ $wall / 10; $wall++;
 my $n = 0;
 while ($n < $wall)
-{
-  my @obfuscation$n = shift @obfuscation0(0..9)
-  $n++;
-}
+  { my @obfuscation$n = shift @obfuscation0(0..9); $n++; }
